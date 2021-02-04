@@ -14,5 +14,6 @@ public class DemoTest {
 					"driver-lib\\chromedriver.exe");
 			
 			WebDriver driver = new ChromeDriver();
+			driver.navigate().to("http://cms.demo.katalon.com/cart/");
 		}
 }
